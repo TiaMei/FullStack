@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+  font-family: Belanosima, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #23b5d3;
+  color: #333;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 20px;
+}
+
+/* Estilos de encabezado */
+header {
+  background-color: #000000;
+  text-align: center;
+  border-bottom: 1px solid #279af1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/* Estilos de navegación */
+nav {
+  background-color: #ff7be9;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  color: #ea526f;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Estilos de contenido principal */
+main {
+  background-color: #f7f7ff;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.pokemon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.pokemon img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.pokemon img:hover {
+  transform: scale(1.1);
+}
+
+.pokemon h4 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Estilos de pie de página */
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  color: #777;
+}
