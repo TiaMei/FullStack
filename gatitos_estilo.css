@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
